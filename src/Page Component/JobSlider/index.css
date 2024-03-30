@@ -59,7 +59,7 @@
 
 .logos-slide img:hover {
   height: 65svh;
-  width: 23svw;
+  width: 22svw;
   border: 1px solid rgba(0, 0, 0, 0.258);
   cursor: pointer;
 }
