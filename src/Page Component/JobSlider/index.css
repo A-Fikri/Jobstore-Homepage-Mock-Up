@@ -61,4 +61,5 @@
   height: 60svh;
   width: 23svw;
   border: 1px solid rgba(0, 0, 0, 0.258);
+  cursor: pointer;
 }
