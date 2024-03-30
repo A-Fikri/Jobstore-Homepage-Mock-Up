@@ -1,0 +1,67 @@
+.footer {
+  margin: 5rem 0 2rem 0;
+  bottom: 0;
+  border-top: 1px solid #00000014;
+  min-height: 50svh;
+  min-width: 25%;
+}
+
+.footer-content {
+  margin: 0 0 0 5rem;
+}
+
+.footer-redirects {
+  margin: 5rem 0 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+div > li {
+  list-style-type: none;
+  margin: 0 0 0.8rem 0;
+  font-size: 12.8px;
+}
+
+.footer-logo {
+  height: 5svh;
+  width: 9svw;
+}
+
+.dropdown {
+  height: 6svh;
+  width: 13svw;
+  border-radius: 5px;
+}
+
+.jobseekers,
+.corporate,
+.about,
+.resources {
+  font-size: 14.4px;
+  font-weight: bold;
+}
+
+.trademark {
+  font-size: 12px;
+}
+
+.app-redirects {
+  display: flex;
+  align-items: center;
+}
+
+.image-redirects {
+  height: 6svh;
+  width: 3svw;
+  margin: 0 0 0 1rem;
+}
+
+.apple {
+  margin: 0 1rem 0 15rem;
+}
+
+.apple,
+.google {
+  height: 6svh;
+  width: 10svw;
+}

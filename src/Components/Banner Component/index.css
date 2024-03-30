@@ -1,0 +1,44 @@
+.top-banner {
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 196, 213);
+  height: 8svh;
+}
+
+.banner-content {
+  margin: 2rem 0 0 0;
+}
+
+.congratulations {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.banner-text {
+  display: flex;
+  margin: 0 2rem 0 5rem;
+}
+
+.bolded-text {
+  font-weight: bold;
+}
+
+.banner-button {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  width: 10svw;
+  height: 4svh;
+  border-radius: 5px;
+}
+
+.banner-button:hover {
+  border: 2px solid blue;
+  color: blueviolet;
+  background-color: white;
+}

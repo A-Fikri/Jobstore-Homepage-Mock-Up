@@ -1,0 +1,181 @@
+.job-titles {
+  margin: 4rem 0 2rem 5rem;
+  display: flex;
+}
+
+.latest-jobs-text {
+  font-size: 18.4px;
+  font-weight: bold;
+}
+
+.see-all-jobs {
+  margin: 0 0 0 65rem;
+  color: #888888;
+  font-size: 12.8px;
+}
+
+.parent {
+  min-height: 30vh;
+  min-width: 82svw;
+  margin: 0 11rem 1rem 5rem;
+  position: relative;
+}
+
+.jobs-section {
+  height: 52svh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.jobs {
+  display: flex;
+  max-width: 100svh;
+}
+
+.card {
+  height: 45svh;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  margin: 0 2rem 0 0;
+  box-shadow: 15px 15px 10px -10px gainsboro;
+  /* padding: 0 12rem 0 2rem; */
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgb(131, 130, 135);
+  background-color: rgba(0, 0, 255, 0.03);
+}
+
+.card .image {
+  height: 20svh;
+  width: 22svw;
+}
+
+.card .position {
+  height: 30px;
+  width: 250px;
+  margin: 1rem 0 0 1rem;
+  font-size: 13.6px;
+  font-weight: bold;
+}
+
+.card .company-name {
+  height: 30px;
+  width: 175px;
+  margin: 1.5rem 0 0 1rem;
+  font-size: 10.4px;
+}
+
+.card .bottom-row {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 0 0;
+}
+
+.company-logo-image {
+  height: 6svh;
+  width: 4svw;
+  margin: 0 0 0 1rem;
+}
+
+/* Below is the code for the different color depending on the category */
+
+.selangor {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #fe7341;
+  background-color: #fee3d9;
+  border: 1px solid #fe7341;
+  border-radius: 15px;
+}
+
+.penang {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #139fbb;
+  background-color: #d9f3f9;
+  border: 1px solid #139fbb;
+  border-radius: 15px;
+}
+
+.kuala-lumpur {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #144268;
+  background-color: #e9f2fa;
+  border: 1px solid #144268;
+  border-radius: 15px;
+}
+
+.kedah {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #a5a51f;
+  background-color: #fefe5940;
+  border: 1px solid #a5a51f;
+  border-radius: 15px;
+}
+
+.sarawak {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #003333;
+  background-color: #fefd59;
+  border: 1px solid #003333;
+  border-radius: 15px;
+}
+
+.sabah {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #900808;
+  background-color: #e9cece;
+  border: 1px solid #900808;
+  border-radius: 15px;
+}
+
+.melacca {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #fc5582;
+  background-color: #feeef2;
+  border: 1px solid #fc5582;
+  border-radius: 15px;
+}
+
+.johor {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #6055fc;
+  background-color: #6055fc49;
+  border: 1px solid #6055fc;
+  border-radius: 15px;
+}
+
+.other {
+  height: 4svh;
+  width: 7svw;
+  margin: 1rem 0 0 1rem;
+  font-size: 12.8px;
+  color: #003333;
+  background-color: #f1f1f1;
+  border: 1px solid #003333;
+  border-radius: 15px;
+}

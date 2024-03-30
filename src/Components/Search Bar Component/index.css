@@ -1,0 +1,56 @@
+.search-bar-column {
+  display: flex;
+  align-items: center;
+  height: 10svh;
+  margin: 0.5rem 0 0 5rem;
+  position: relative;
+}
+
+.malaysia-text {
+  position: absolute;
+  left: 30rem;
+  color: #88888893;
+}
+
+.location-icon {
+  position: absolute;
+  left: 41rem;
+  height: 3svh;
+  width: 1.5svw;
+}
+
+.search-icon {
+  position: absolute;
+  left: 44rem;
+  height: 3svh;
+  width: 1.5svw;
+}
+
+.jobstore-logo {
+  height: 5svh;
+  width: 10svw;
+}
+
+.search-bar {
+  margin: 0 1rem 0 1rem;
+  padding: 0 0 0 1rem;
+  height: 5.5svh;
+  width: 38svw;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
+.all-jobs-button {
+  color: #888888;
+  background-color: #ffffff;
+  border: 1px solid #888888c1;
+  border-radius: 20px;
+  height: 6svh;
+  width: 7svw;
+}
+
+.career-fair-logo {
+  margin: 0 0 0 15rem;
+  height: 6svh;
+  width: 13svw;
+}

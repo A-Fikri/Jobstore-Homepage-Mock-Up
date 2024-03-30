@@ -1,0 +1,41 @@
+.redirects {
+  margin: 1rem 0 0 5rem;
+}
+
+div > a {
+  margin: 0 2rem 0 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div > a:hover {
+  color: blue;
+}
+
+.sign-in {
+  margin: 0 0 0 22rem;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.register {
+  margin: 0 2rem 0 2rem;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.employers-button {
+  color: #ffffff;
+  background-color: #fe7e00;
+  border: none;
+  height: 7svh;
+  width: 9svw;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.employers-button:hover {
+  border: 2px solid #fe7e00;
+  color: #fe7e00;
+  background-color: #ffffff;
+}
